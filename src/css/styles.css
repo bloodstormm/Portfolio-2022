@@ -802,6 +802,20 @@ body.light-theme {
   color: var(--body-color);
 }
 
+.alert {
+  width: 100%;
+  padding: .4rem;
+  text-align: center;
+  color: var(--title-color);
+  background-color: var(--main-color);
+}
+.alert a {
+  color: var(--body-color);
+}
+.alert a:hover {
+  color: var(--text-color);
+}
+
 /* =============== BREAKPOINTS =============== */
 /* Small Devices */
 @media screen and (max-width: 320px) {
